@@ -113,9 +113,9 @@ IF cell(a) = cell(b) THEN
  cell(b) = -cell(b)
  match = match + 2
  IF match = 14 THEN
- PRINT "GAME OVER"
- SLEEP
- END
+  PRINT "GAME OVER"
+  SLEEP
+  END
  END IF
 ELSE
  FOR n = 27 TO 1 STEP -1
@@ -125,4 +125,3 @@ ELSE
 END IF
 
 GOTO GetInput
-
