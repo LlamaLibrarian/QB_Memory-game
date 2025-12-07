@@ -83,7 +83,7 @@ try = try + 1
 temp! = cell(a)
 FOR n = 1 TO 27 STEP 3
  DO WHILE temp! < 1
- temp! = temp! * 10
+  temp! = temp! * 10
  LOOP
  a% = INT(temp!) MOD 7 + 1
  temp! = temp! - INT(temp!)
@@ -95,7 +95,7 @@ NEXT
 temp! = cell(b)
 FOR n = 1 TO 27 STEP 3
  DO WHILE temp! < 1
- temp! = temp! * 10
+  temp! = temp! * 10
  LOOP
  a% = INT(temp!) MOD 7 + 1
  temp! = temp! - INT(temp!)
@@ -125,3 +125,4 @@ ELSE
 END IF
 
 GOTO GetInput
+
